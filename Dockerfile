@@ -1,3 +1,3 @@
 FROM node:10-slim
 
-RUN yarn global add @graphql-inspector/cli
+RUN yarn global add @graphql-inspector/cli graphql
