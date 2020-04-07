@@ -1,5 +1,5 @@
-FROM node:10
+FROM node:12
 
 WORKDIR /workdir
 
-RUN yarn global add @graphql-inspector/cli graphql
+RUN yarn global add @graphql-inspector/cli
