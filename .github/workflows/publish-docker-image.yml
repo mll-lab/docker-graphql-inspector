@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: mll-lab/graphql-inspector
+          images: mlllab/graphql-inspector
 
       - name: Login to Docker Hub
         if: github.event_name != 'pull_request'
