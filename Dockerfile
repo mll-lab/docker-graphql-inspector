@@ -1,4 +1,5 @@
-FROM node:14
+# https://hub.docker.com/_/node?tab=tags
+FROM node:14-bullseye-slim
 
 WORKDIR /workdir
 
